@@ -79,7 +79,7 @@ const Start = ({ navigation }) => {
             style={styles.btnChat}
             onPress={() => handlePress(name, color)}
           >
-            Start Chatting
+            Start Chating
             </Text>
         </TouchableOpacity>
       </View>
