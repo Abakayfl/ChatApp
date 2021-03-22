@@ -15,33 +15,19 @@ import React from 'react';
 import Start from './components/Start';
 import Chat from './components/Chat';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyB9TZiLRk-tY5Ij7P2qABveGzFxslPP2bU",
-  authDomain: "test-be478.firebaseapp.com",
-  projectId: "test-be478",
-  storageBucket: "test-be478.appspot.com",
-  messagingSenderId: "445563747446",
-  appId: "1:445563747446:web:bd493792f50063c60bb357",
-  measurementId: "G-LNZM1J2EK3"
-}
 
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
+
+
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        initialRouteName="Start"
-      >
+      <Stack.Navigator initialRouteName='Start'>
+        <Stack.Screen name='Chat App' component={Start} />
         <Stack.Screen
-          name="Start"
-          component={Start}
-        />
-        <Stack.Screen
-          name="Chat"
+          name='Chat'
           component={Chat}
+          options={({ route }) => ({ title: route.params.name })}
         />
       </Stack.Navigator>
     </NavigationContainer>
