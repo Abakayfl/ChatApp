@@ -1,6 +1,4 @@
 // import react native gesture handler
-
-
 import 'react-native-gesture-handler';
 
 // import react Navigation
@@ -11,13 +9,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 import React from 'react';
-
 import Start from './components/Start';
 import Chat from './components/Chat';
-
-
-
-
 
 const App = () => {
   return (
