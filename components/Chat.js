@@ -1,6 +1,6 @@
 import { GiftedChat, Bubble, InputToolbar } from 'react-native-gifted-chat';
-import React, { Component } from 'react';
-import { View, Text, Platform, KeyboardAvoidingView } from 'react-native';
+import React from 'react';
+import { View, Platform, KeyboardAvoidingView, Alert } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import NetInfo from '@react-native-community/netinfo';
 import MapView from 'react-native-maps';
@@ -107,6 +107,8 @@ export default class Chat extends React.Component {
           isConnected: false
         });
         this.getMessages();
+        Alert.alert('No internet connection, unable to send messages');
+        console.log('offline');
       }
     });
   }
