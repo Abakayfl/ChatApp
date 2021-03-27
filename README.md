@@ -31,4 +31,4 @@ A page displaying the conversation, as well as an input field and submit button
 The chat must provide users with two additional communication features: sending images and location data
 Data gets stored online and offline
 
-![Home Page](https://user-images.githubusercontent.com/73713860/112708917-82bdb080-8e8b-11eb-81f8-4a1bf91aa8e6.jpg){:height="50%" width="50%"}
+![Home Page](https://user-images.githubusercontent.com/73713860/112708917-82bdb080-8e8b-11eb-81f8-4a1bf91aa8e6.jpg| width=100)
