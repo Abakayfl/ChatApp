@@ -1,5 +1,7 @@
 # ChatApp
 
+[Demo of the App](https://drive.google.com/file/d/1uCz8JdDrLe_e0jWNGIH8vDXmbiOosXLK/view?usp=sharing)
+
 # Description
 
 A chat app for mobile devices built with React Native. The app provides users with a chat interface and options to share images and their location.
