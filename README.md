@@ -1,5 +1,8 @@
 # ChatApp
 
+Screen Shot 2021-03-26 at 11.23.09 PM![image](https://user-images.githubusercontent.com/73713860/112708769-4fc6ed00-8e8a-11eb-95e4-45bb90b1c07c.png)
+
+
 [Demo of the App](https://drive.google.com/file/d/1uCz8JdDrLe_e0jWNGIH8vDXmbiOosXLK/view?usp=sharing)
 
 # Description
